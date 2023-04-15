@@ -141,7 +141,7 @@ toggleSpan.onclick = function (e) {
 // end header toggle 
 let landing = document.querySelector(".landing-page");
 
-let imgsArray = ["landing-1.png", "landing-2.png", "landing-3.png", "landing-4.png", "landing-5.png"];
+let imgsArray = ["./landing-1.png", "./landing-2.png", "./landing-3.png", "./landing-4.png", "./landing-5.png"];
 
 function randomizeImgs () {
     if (backgrondClear === true) {
