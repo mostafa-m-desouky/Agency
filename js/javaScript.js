@@ -147,7 +147,7 @@ function randomizeImgs () {
     if (backgrondClear === true) {
         backgrondClearIn = setInterval(function () {
             let random = Math.floor(Math.random() * imgsArray.length);
-            landing.style.backgroundImage = 'url("../images/'+imgsArray[random]+'")';
+            landing.style.backgroundImage = 'url("./images/'+imgsArray[random]+'")';
         },10000);
     }
 }
